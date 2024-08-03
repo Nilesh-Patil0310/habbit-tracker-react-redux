@@ -55,40 +55,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - React Router
 - CSS
 
-## Folder Structure
-
-habit-tracker/
-│
-├── public/
-│ ├── index.html
-│ └── ...
-│
-├── src/
-│ ├── components/
-│ │ ├── HabitFormPopup.js
-│ │ ├── HabitList.js
-│ │ ├── Navbar.js
-│ │ └── ...
-│ │
-│ ├── pages/
-│ │ ├── Home.js
-│ │ ├── WeekView.js
-│ │ └── ...
-│ │
-│ ├── redux/
-│ │ ├── store.js
-│ │ └── habitSlice.js
-│ │
-│ ├── App.js
-│ ├── index.js
-│ ├── styles.css
-│ └── ...
-│
-├── .gitignore
-├── package.json
-├── README.md
-
-
 
 
 ### `npm run build` fails to minify

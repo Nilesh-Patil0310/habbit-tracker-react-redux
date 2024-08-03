@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Habit Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Habit Tracker application built using React, Redux, and React Router. It allows users to add multiple habits, track their status over a week, and toggle between different statuses for each day.
 
 ## Available Scripts
 
@@ -39,31 +39,57 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Add multiple habits to track.
+- Track each habit daily with three statuses: `Done`, `Not Done`, and `None`.
+- View the status of each habit for the current day and the previous six days.
+- Change the status of any day for any habit.
+- Responsive design with a pop-up form for adding habit.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React
+- Redux
+- React Router
+- CSS
 
-### Analyzing the Bundle Size
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+habit-tracker/
+│
+├── public/
+│ ├── index.html
+│ └── ...
+│
+├── src/
+│ ├── components/
+│ │ ├── HabitFormPopup.js
+│ │ ├── HabitList.js
+│ │ ├── Navbar.js
+│ │ └── ...
+│ │
+│ ├── pages/
+│ │ ├── Home.js
+│ │ ├── WeekView.js
+│ │ └── ...
+│ │
+│ ├── redux/
+│ │ ├── store.js
+│ │ └── habitSlice.js
+│ │
+│ ├── App.js
+│ ├── index.js
+│ ├── styles.css
+│ └── ...
+│
+├── .gitignore
+├── package.json
+├── README.md
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 

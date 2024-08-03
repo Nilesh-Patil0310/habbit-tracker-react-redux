@@ -20,7 +20,7 @@ function HabitFormPopup({ show, onClose }) {
   return (
     <div className={`popup ${show ? 'show' : ''}`}>
       <div className="popup-content">
-        <h2>Add Habit</h2>
+        <h2 className='h2'>Add Habit</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="text"

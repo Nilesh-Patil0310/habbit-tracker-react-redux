@@ -1,0 +1,50 @@
+.week-view {
+    padding: 20px;
+  }
+  
+  .week-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .week-day {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .habit-week {
+    margin-bottom: 20px;
+  }
+  
+  .habit-week h2 {
+    margin: 0 0 10px;
+  }
+  
+  .week-status-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .week-status {
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+  }
+  
+  .week-status.done {
+    background-color: green;
+  }
+  
+  .week-status.not-done {
+    background-color: red;
+  }
+  
+  .week-status.none {
+    background-color: grey;
+  }
+  
+    
